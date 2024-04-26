@@ -3,9 +3,9 @@ package config
 import (
 	"encoding/json"
 	"fmt"
+	"github.com/ZhanibekTau/go-jm-core/pkg/config/structures"
+	"github.com/ZhanibekTau/go-jm-core/pkg/helpers/structHelper"
 	"github.com/spf13/viper"
-	"go-jm-core/pkg/config/structures"
-	"go-jm-core/pkg/helpers/structHelper"
 	"log"
 	"os"
 	"strings"
