@@ -2,10 +2,10 @@ package middleware
 
 import (
 	"fmt"
+	"github.com/ZhanibekTau/go-jm-core/pkg/exception"
 	"github.com/getsentry/sentry-go"
 	"github.com/gin-gonic/gin"
 	"github.com/mitchellh/mapstructure"
-	"go-jm-core/pkg/exception"
 	"net/http"
 )
 

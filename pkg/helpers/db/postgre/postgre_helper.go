@@ -2,12 +2,12 @@ package postgre
 
 import (
 	"fmt"
+	"github.com/ZhanibekTau/go-jm-core/pkg/config/structures"
+	"github.com/ZhanibekTau/go-jm-core/pkg/logger"
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/postgres"
 	_ "github.com/lib/pq"
 	"github.com/sirupsen/logrus"
-	"go-jm-core/pkg/config/structures"
-	"go-jm-core/pkg/logger"
 	"log"
 	"strconv"
 	"time"

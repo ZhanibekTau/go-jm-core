@@ -1,8 +1,8 @@
 package redis
 
 import (
+	"github.com/ZhanibekTau/go-jm-core/pkg/config/structures"
 	"github.com/gomodule/redigo/redis"
-	"go-jm-core/pkg/config/structures"
 	"time"
 )
 

@@ -3,7 +3,6 @@ module github.com/ZhanibekTau/go-jm-core
 go 1.22.2
 
 require (
-	github.com/exgamer/go-rest-sdk v1.1.15
 	github.com/getsentry/sentry-go v0.27.0
 	github.com/gin-gonic/gin v1.9.1
 	github.com/go-errors/errors v1.5.1

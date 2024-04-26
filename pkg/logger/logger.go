@@ -1,7 +1,7 @@
 package logger
 
 import (
-	"go-jm-core/pkg/exception"
+	"github.com/ZhanibekTau/go-jm-core/pkg/exception"
 	"log"
 	"os"
 )

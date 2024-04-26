@@ -2,10 +2,10 @@ package jMiddleware
 
 import (
 	"fmt"
-	"github.com/exgamer/go-rest-sdk/pkg/config/structures"
-	"github.com/exgamer/go-rest-sdk/pkg/exception"
-	"github.com/exgamer/go-rest-sdk/pkg/modules/j/jConstants"
-	"github.com/exgamer/go-rest-sdk/pkg/modules/j/jLog"
+	"github.com/ZhanibekTau/go-jm-core/pkg/config/structures"
+	"github.com/ZhanibekTau/go-jm-core/pkg/exception"
+	"github.com/ZhanibekTau/go-jm-core/pkg/modules/j/jConstants"
+	"github.com/ZhanibekTau/go-jm-core/pkg/modules/j/jLog"
 	"github.com/getsentry/sentry-go"
 	"github.com/gin-gonic/gin"
 	"github.com/mitchellh/mapstructure"

@@ -1,6 +1,8 @@
 package middleware
 
 import (
+	"github.com/ZhanibekTau/go-jm-core/pkg/exception"
+	httpResponse "github.com/ZhanibekTau/go-jm-core/pkg/http"
 	"github.com/getsentry/sentry-go"
 	"github.com/gin-gonic/gin"
 	"github.com/go-errors/errors"
@@ -32,7 +34,7 @@ func RecoveryWithWriter(out io.Writer) gin.HandlerFunc {
 				}
 
 				sentry.CaptureException(errors.New(err))
-				httpResponse.Error(c, exception.NewAppException(http.StatusInternalServerError, errors.New(err), nil))
+				httpResponse.Error(c, exception.NewAppException(http.StatusInternalServerError, errors.New(err)))
 			}
 		}()
 		c.Next()

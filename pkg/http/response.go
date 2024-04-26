@@ -1,8 +1,8 @@
 package http
 
 import (
+	"github.com/ZhanibekTau/go-jm-core/pkg/exception"
 	"github.com/gin-gonic/gin"
-	"go-jm-core/pkg/exception"
 )
 
 func Error(c *gin.Context, exception *exception.AppException) {

@@ -2,13 +2,13 @@ package gin
 
 import (
 	"fmt"
+	"github.com/ZhanibekTau/go-jm-core/pkg/config/structures"
 	"github.com/getsentry/sentry-go"
 	sentrygin "github.com/getsentry/sentry-go/gin"
 	"github.com/gin-gonic/gin"
 	"github.com/go-errors/errors"
 	timeout "github.com/vearne/gin-timeout"
 	ginprometheus "github.com/zsais/go-gin-prometheus"
-	"go-jm-core/pkg/config/structures"
 	"net/http"
 	"time"
 )

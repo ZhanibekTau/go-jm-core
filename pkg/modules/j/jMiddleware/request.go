@@ -1,9 +1,9 @@
 package jMiddleware
 
 import (
+	"github.com/ZhanibekTau/go-jm-core/pkg/modules/j/jConstants"
+	"github.com/ZhanibekTau/go-jm-core/pkg/modules/j/jStructures"
 	"github.com/gin-gonic/gin"
-	"go-jm-core/pkg/modules/j/jConstants"
-	"go-jm-core/pkg/modules/j/jStructures"
 	"strconv"
 	"strings"
 )

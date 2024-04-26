@@ -1,10 +1,10 @@
 package jRedisHelper
 
 import (
+	redis2 "github.com/ZhanibekTau/go-jm-core/pkg/helpers/db/redis"
+	"github.com/ZhanibekTau/go-jm-core/pkg/modules/j/jLog"
+	"github.com/ZhanibekTau/go-jm-core/pkg/modules/j/jStructures"
 	"github.com/gomodule/redigo/redis"
-	redis2 "go-jm-core/pkg/helpers/db/redis"
-	"go-jm-core/pkg/modules/j/jLog"
-	"go-jm-core/pkg/modules/j/jStructures"
 	"strings"
 )
 

@@ -2,10 +2,10 @@ package mysql
 
 import (
 	"fmt"
+	"github.com/ZhanibekTau/go-jm-core/pkg/config/structures"
 	_ "github.com/go-sql-driver/mysql"
 	"github.com/jinzhu/gorm"
 	"github.com/sirupsen/logrus"
-	"go-jm-core/pkg/config/structures"
 	"strconv"
 	"time"
 )

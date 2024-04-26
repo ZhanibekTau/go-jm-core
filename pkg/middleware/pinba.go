@@ -1,10 +1,10 @@
 package middleware
 
 import (
+	"github.com/ZhanibekTau/go-jm-core/pkg/config/structures"
+	"github.com/ZhanibekTau/go-jm-core/pkg/logger"
 	"github.com/gin-gonic/gin"
 	"github.com/mkevac/gopinba"
-	"go-jm-core/pkg/config/structures"
-	"go-jm-core/pkg/logger"
 	"time"
 )
 
